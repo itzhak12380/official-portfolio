@@ -16,7 +16,7 @@ function Navbar() {
             <li>Testimonial</li>
           </ul>
         </div>
-          <button className="button n-button">contact us</button>
+          <button className="button n-button">contact </button>
       </div>
     </div>
   );
