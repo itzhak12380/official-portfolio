@@ -1,9 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import { ThemProvider } from './context/contaxt';
 
 ReactDOM.render(
-    <App />,
+  <ThemProvider>
+
+    <App />
+  </ThemProvider>,
   document.getElementById('root')
 );
 

@@ -36,3 +36,6 @@
     filter: drop-shadow(-12px 15px 13px rgb(0, 0, 0, 0.25));
     border-radius: 19px;
 }
+@media screen and (max-width:480px) {
+   
+}

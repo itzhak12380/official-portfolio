@@ -1,11 +1,12 @@
 .FloatingDiv{
     display: flex;
     justify-content: space-around;
-    background-color:white ;
+    background:white ;
     box-shadow: var(--boxShadow);
     border-radius: 17px;
     align-items: center;
     height: 4.5rem;
+    padding: 0px 28px 0px 0px;
 }
 
 .FloatingDiv>img{

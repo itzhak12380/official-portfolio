@@ -2,7 +2,6 @@
     height: 10vh;
     display: flex;
     justify-content: space-between;
-    /* background-color: red; */
 }
 
 .n-left {
@@ -35,13 +34,23 @@
     gap: 2rem;
     margin-right: 4rem;
     list-style-type: none;
+    cursor: pointer;
 }
 
 .n-list>ul>li:hover {
-    cursor: pointer;
     color: var(--orange);
 
 }
-.n-button{
-   flex: 2; 
+
+.n-button {
+    flex: 2;
+}
+@media screen and (max-width:480px) {
+    .n-list{
+        display: none;
+
+    }
+    .n-button{
+        display: none;
+    }
 }

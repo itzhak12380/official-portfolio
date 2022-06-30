@@ -1,8 +1,8 @@
 import React from "react";
-import './Experience.css'
+import "./Experience.css";
 function Experience() {
   return (
-    <div className="Experience">
+    <div className="Experience" id="Experience">
       <div className="Achievement">
         <div className="circle">8+</div>
         <span>Years</span>
