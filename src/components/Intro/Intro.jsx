@@ -6,12 +6,14 @@ import LinkedIn from "../../img/linkedin.png";
 import Instagram from "../../img/instagram.png";
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
-import boy from "../../img/boy.png";
+import boy from "../../img/profilePic1.png";
 import thumbup from "../../img/thumbup.png";
 import Crown from "../../img/crown.png";
 import glassesimoji from "../../img/glassesimoji.png";
 import { themContext } from "../../context/contaxt";
 import { motion } from "framer-motion";
+import { Link } from "react-scroll";
+
 function Intro() {
   const transition = { duration: 2, type: "spring" };
   const them = useContext(themContext);
@@ -30,7 +32,9 @@ function Intro() {
             and fast learner
           </span>
         </div>
-        <button className=" i-button button"> Hire me</button>
+        <Link to="Contact" spy={true} smooth={true}>
+          <button className=" i-button button"> Hire me</button>
+        </Link>
         <div className="i-icons">
           <img src={Github} alt="" />
           <img src={LinkedIn} alt="" />

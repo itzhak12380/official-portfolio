@@ -2,10 +2,10 @@ import React, { useContext } from "react";
 import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import Sidebar from "../../img/sidebar.png";
-import Ecommerce from "../../img/ecommerce.png";
-import Hoc from "../../img/hoc.png";
-import Musiceapp from "../../img/musicapp.png";
+import portfolioApp from "../../img/portfolioApp.png";
+import Ecommerce from "../../img/ecommercePro.png";
+import weatherApp from "../../img/weatherApp.png";
+import calaulaterApp from "../../img/calculaterApp.png";
 import { themContext } from "../../context/contaxt";
 
 function Portfolio() {
@@ -26,16 +26,24 @@ function Portfolio() {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <img src={Sidebar} alt="" />
+          <a href="https://ecommerce-kasie.herokuapp.com/" target="blank">
+            <img src={Ecommerce} alt="" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Ecommerce} alt="" />
+          <a href="https://itzhak12380.github.io/Weather-app/" target="blank">
+            <img src={weatherApp} alt="" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Hoc} alt="" />
+          <a href="https://itzhak12380.github.io/portfolio/" target="blank">
+            <img src={portfolioApp} alt="" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Musiceapp} alt="" />
+          <a href="https://itzhak12380.github.io/calculator/" target="blank">
+            <img src={calaulaterApp} alt="" />
+          </a>
         </SwiperSlide>
       </Swiper>
     </div>

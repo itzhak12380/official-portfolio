@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
 import "./Works.css";
-import Upwork from "../../img/Upwork.png";
-import Fiverr from "../../img/fiverr.png";
-import Amazon from "../../img/amazon.png";
-import Shopify from "../../img/Shopify.png";
-import Facebook from "../../img/Facebook.png";
+import Upwork from "../../img/nodejs.png";
+import react from "../../img/reactjs.png";
+import javascript from "../../img/javascript.jpg";
+import css from "../../img/css.png";
+import angular from "../../img/angular.png";
 import { themContext } from "../../context/contaxt";
 import { motion } from "framer-motion";
 function Works() {
@@ -14,18 +14,11 @@ function Works() {
     <div className="works">
       <div className="awesome">
         <span style={darkMode ? { color: "white" } : { color: "" }}>
-          Works for all these
+          learned this lenguages
+          <br />
+          /libers
         </span>
-        <span>Brands & clients</span>
-        <span>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
-          <br />
-          esse inventore similique,
-          <br />
-          esse inventore similique,
-          <br />
-          esse inventore similique,
-        </span>
+        <span>FrontEnd & Backend</span>
 
         <button className="button s-button"> Hire me </button>
 
@@ -37,23 +30,23 @@ function Works() {
           initial={{ rotate: 45 }}
           whileInView={{ rotate: 0 }}
           viewport={{ margin: "-40px" }}
-          transition={{duration:3.5,type:'spring'}}
+          transition={{ duration: 3.5, type: "spring" }}
           className="w-mainCircle"
         >
           <div className="w-secCircle">
             <img src={Upwork} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Fiverr} alt="" />
+            <img src={react} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Amazon} alt="" />
+            <img src={javascript} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Shopify} alt="" />
+            <img src={css} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Facebook} alt="" />
+            <img src={angular} alt="" />
           </div>
         </motion.div>
         <div className="w-backCircle blueCircle"></div>

@@ -1,10 +1,13 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useContext } from "react";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
+import { themContext } from "../../context/contaxt";
+
 function Contact() {
   const [Done, setDone] = useState(false);
   const form = useRef();
-
+  const them = useContext(themContext);
+  const darkMode = them.state.darkMode;
   const sendEmail = (e) => {
     // e.preventDefault();
 
@@ -26,10 +29,12 @@ function Contact() {
       );
   };
   return (
-    <div className="contact-form" >
+    <div className="contact-form" id="Contact">
       <div className="w-left"></div>
       <div className="awesome">
-        <span>Get in touch</span>
+        <span style={darkMode ? { color: "white" } : { color: "" }}>
+          Get in touch
+        </span>
         <span>Contact me</span>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>

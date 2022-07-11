@@ -52,8 +52,8 @@ export default function Service() {
         >
           <Card
             emoji={HeartEmoji}
-            heading={"Developer"}
-            detali={"html,css,javascript,react,nodejs,c#"}
+            heading={"Front-end"}
+            detali={"html,css,javascript,react,angular"}
           />
         </motion.div>
         {/* thierd card */}
@@ -65,8 +65,8 @@ export default function Service() {
         >
           <Card
             emoji={HeartEmoji}
-            heading={"Developer"}
-            detali={"html,css,javascript,react,nodejs,c#"}
+            heading={"Back-end"}
+            detali={"nodejs,MongoDb,Sql,c#"}
           />
         </motion.div>
         <div
