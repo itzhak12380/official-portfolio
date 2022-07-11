@@ -29,7 +29,7 @@
 
 .portfolio-slider .swiper-slider {
     width: 20rem;
-}
+} 
 
 .portfolio img {
     width: 19rem;
@@ -38,4 +38,9 @@
     height: 10rem;
 }
 
-@media screen and (max-width:480px) {}
+@media screen and (max-width:480px) {
+    .portfolio-slider {
+        width: 100%;
+        overflow: scroll;
+    }
+}

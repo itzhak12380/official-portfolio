@@ -46,7 +46,7 @@
     top: 8rem;
     left: 14rem;
 }
-@media screen and (max-width:480px) {
+@media  (max-width:500px) {
     .Services{
         margin-top: 0;
         flex-direction: column;
