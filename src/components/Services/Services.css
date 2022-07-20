@@ -65,12 +65,11 @@
     }
 
     .cards {
-        /* display: flex; */
-        flex-direction: column;
+        display: flex;
         gap: 17rem;
     }
 
-    .cards>* {
+    /* .cards>* {
         position: static;
-    }
+    } */
 }
