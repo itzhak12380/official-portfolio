@@ -66,10 +66,11 @@
 
     .cards {
         display: flex;
+        flex-direction: column;
         gap: 17rem;
     }
 
-    /* .cards>* {
+    .cards>* {
         position: static;
-    } */
+    }
 }
