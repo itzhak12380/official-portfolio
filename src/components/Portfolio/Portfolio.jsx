@@ -29,7 +29,7 @@ function Portfolio() {
           380: {
             slidesPerView: 1,
           },
-          780: {
+          1200: {
             slidesPerView: 3,
           },
         }}
