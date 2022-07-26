@@ -59,18 +59,21 @@
     .Services {
         margin-top: 0;
         flex-direction: column;
-        gap: 5rem;
-        height: 90vh;
-        padding: 0;
+        /* gap: 2rem; */
+        height: 64rem;
+        padding: 12px;
     }
 
     .cards {
+        margin-top: 30px;
         display: flex;
         flex-direction: column;
         gap: 17rem;
+        
     }
 
     .cards>* {
         position: static;
+        
     }
 }

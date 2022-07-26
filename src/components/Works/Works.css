@@ -95,8 +95,9 @@
 
 @media screen and (max-width:480px) {
     .works {
+        margin-top: 0;
         flex-direction: column;
-        height: 55rem;
+        height: 45rem;
         padding: 0;
         gap: 5rem;
     }

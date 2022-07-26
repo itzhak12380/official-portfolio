@@ -3,7 +3,6 @@ import FloatingDiv from "../FloatingDiv/FloatingDiv";
 import "./Intro.css";
 import Github from "../../img/github.png";
 import LinkedIn from "../../img/linkedin.png";
-import Instagram from "../../img/instagram.png";
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
 import boy from "../../img/profilePic1.png";
@@ -36,9 +35,15 @@ function Intro() {
           <button className=" i-button button"> Hire me</button>
         </Link>
         <div className="i-icons">
-          <img src={Github} alt="" />
-          <img src={LinkedIn} alt="" />
-          <img src={Instagram} alt="" />
+          <a href="https://github.com/itzhak12380" target="blank">
+            <img src={Github} alt="" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/itzhak-kasie-01457b203/"
+            target="blank"
+          >
+            <img src={LinkedIn} alt="" />
+          </a>
         </div>
       </div>
       <div className="i-right">

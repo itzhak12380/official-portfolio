@@ -18,34 +18,62 @@ function Portfolio() {
         Recent Projects
       </span>
       <span>Portfolio</span>
+      <span>press the image to view the project</span>
       {/* silder */}
       <Swiper
         spaceBetween={30}
         slidesPerView={3}
-        grabCursor={true}
+        scrollbar={{ draggable: true }}
         className="portfolio-slider"
+        breakpoints={{
+          380: {
+            slidesPerView: 1,
+          },
+          780: {
+            slidesPerView: 3,
+          },
+        }}
       >
         <SwiperSlide>
+          <h4>
+            Github -{" "}
+            <a href="https://github.com/itzhak12380/TypeScritpt-Ecommerce">
+              source code
+            </a>{" "}
+          </h4>
           <a href="https://ecommerce-kasie.herokuapp.com/" target="blank">
             <img src={Ecommerce} alt="" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
+          <h4>
+            Github -{" "}
+            <a href="https://github.com/itzhak12380/Weather-app">source code</a>{" "}
+          </h4>
           <a href="https://itzhak12380.github.io/Weather-app/" target="blank">
             <img src={weatherApp} alt="" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
+          <h4>
+            Github -{" "}
+            <a href="https://github.com/itzhak12380/portfolio">source code</a>{" "}
+          </h4>
           <a href="https://itzhak12380.github.io/portfolio/" target="blank">
             <img src={portfolioApp} alt="" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
+          <h4>
+            Github -{" "}
+            <a href="https://github.com/itzhak12380/calculator">source code</a>{" "}
+          </h4>
           <a href="https://itzhak12380.github.io/calculator/" target="blank">
             <img src={calaulaterApp} alt="" />
           </a>
         </SwiperSlide>
       </Swiper>
+      <span>swipe right to see other projects</span>
     </div>
   );
 }

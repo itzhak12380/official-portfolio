@@ -81,7 +81,6 @@
 .i-right>:nth-child(3) {
     transform: scale(1.4);
     left: 26%;
-    /* transform: rotate(90deg); */
 }
 
 .i-right>:nth-child(4) {
@@ -124,12 +123,12 @@
     .Floating-div:nth-last-of-type(1) {
         top: -7rem !important;
     }
+
     .Floating-div:nth-last-of-type(4) {
         top: -4rem !important;
-}
-    
-   
-    
+    }
 
-    
+    .i-icons {
+        justify-content: space-between;
+    }
 }
