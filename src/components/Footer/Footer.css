@@ -1,4 +1,4 @@
-.footer{
+.footer {
     display: flex;
     align-items: center;
     margin: -0.5rem -3.5rem;
@@ -6,7 +6,7 @@
     margin-top: -7rem;
 }
 
-.f-contact{
+.f-contact {
     position: absolute;
     display: flex;
     justify-content: center;
@@ -17,13 +17,9 @@
     gap: 4rem;
     color: white;
 }
-.f-icons{
-    display: flex;
-    gap: 2rem;
-}
 
 @media screen and (max-width:480px) {
-    .f-contact{
+    .f-contact {
         transform: scale(0.5);
     }
 }

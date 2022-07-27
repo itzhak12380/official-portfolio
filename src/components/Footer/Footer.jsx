@@ -9,10 +9,6 @@ function Footer() {
       <img src={wave} alt="" style={{ width: "100%" }} />
       <div className="f-contact">
         <span>Yitzhakkasie@gmail.com</span>
-        <div className="f-icons">
-          <Facebook color="white" size="3rem" />
-          <Github color="white" size="3rem" />
-        </div>
       </div>
     </div>
   );

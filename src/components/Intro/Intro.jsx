@@ -3,6 +3,7 @@ import FloatingDiv from "../FloatingDiv/FloatingDiv";
 import "./Intro.css";
 import Github from "../../img/github.png";
 import LinkedIn from "../../img/linkedin.png";
+import Facebook from "@iconscout/react-unicons/icons/uil-facebook";
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
 import boy from "../../img/profilePic1.png";
@@ -43,6 +44,9 @@ function Intro() {
             target="blank"
           >
             <img src={LinkedIn} alt="" />
+          </a>
+          <a href="https://www.facebook.com/iascc.kasay/" target="blank">
+            <Facebook color="#FCA61F" size="5rem" />
           </a>
         </div>
       </div>
