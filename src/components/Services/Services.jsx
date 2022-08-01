@@ -19,11 +19,7 @@ export default function Service() {
           My Awesome
         </span>
         <span>Serviecs</span>
-        <span>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
-          <br />
-          esse inventore similique,
-        </span>
+        
         <a href={Resume} download>
           <button className="button s-button"> Download CV </button>
         </a>

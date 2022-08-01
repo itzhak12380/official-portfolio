@@ -2,15 +2,24 @@ import React, { useContext } from "react";
 import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import "swiper/css/pagination";
 import portfolioApp from "../../img/portfolioApp.png";
 import Ecommerce from "../../img/ecommercePro.png";
 import weatherApp from "../../img/weatherApp.png";
 import calaulaterApp from "../../img/calculaterApp.png";
 import { themContext } from "../../context/contaxt";
+import { Pagination } from "swiper";
 
 function Portfolio() {
   const them = useContext(themContext);
   const darkMode = them.state.darkMode;
+  const pagination = {
+    clickable: true,
+    renderBullet: function (index, className) {
+      return '<li  class="' + className + ' ">' + "</li>";
+    },
+    
+  };
   return (
     <div className="portfolio" id="Portfolio">
       {/* heading */}
@@ -21,15 +30,16 @@ function Portfolio() {
       <span>press the image to view the project</span>
       {/* silder */}
       <Swiper
+        pagination={pagination}
+        modules={[Pagination]}
+        className="portfolio-slider"
         spaceBetween={30}
         slidesPerView={3}
-        scrollbar={{ draggable: true }}
-        className="portfolio-slider"
         breakpoints={{
           380: {
             slidesPerView: 1,
           },
-          1200: {
+          900: {
             slidesPerView: 3,
           },
         }}
@@ -73,7 +83,7 @@ function Portfolio() {
           </a>
         </SwiperSlide>
       </Swiper>
-      <span>swipe right to see other projects</span>
+      {/* <span>swipe right to see other projects</span> */}
     </div>
   );
 }

@@ -14,14 +14,9 @@ function Works() {
     <div className="works">
       <div className="awesome">
         <span style={darkMode ? { color: "white" } : { color: "" }}>
-          learned this lenguages
-          <br />
-          /libers
+          learned this libers
         </span>
         <span>FrontEnd & Backend</span>
-
-        <button className="button s-button"> Hire me </button>
-
         <div className="blur s-blur" style={{ background: "#ABF1FF94" }}></div>
       </div>
       {/*  right side */}

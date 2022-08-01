@@ -39,7 +39,6 @@
 
 .n-list>ul>li:hover {
     color: var(--orange);
-
 }
 
 .n-button {
@@ -48,7 +47,6 @@
 @media screen and (max-width:480px) {
     .n-list{
         display: none;
-
     }
     .n-button{
         display: none;
