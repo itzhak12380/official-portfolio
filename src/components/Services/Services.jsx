@@ -4,7 +4,7 @@ import HeartEmoji from "../../img/heartemoji.png";
 import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import Card from "../card/Card";
-import Resume from "../../Resume/Resume.pdf";
+import Resume from "../../Resume/YitzhakResume.pdf";
 import { themContext } from "../../context/contaxt";
 import { motion } from "framer-motion";
 export default function Service() {
